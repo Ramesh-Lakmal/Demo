@@ -9,6 +9,15 @@
 
 #sample-id-selector{
 
-    background-color: red;
+    background-color: #10d536;
     color: blue;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+body{
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
