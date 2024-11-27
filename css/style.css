@@ -1,8 +1,14 @@
-h1{
+.h1{
     color: black;
     background-color: brown;
 }
-p{
+.p{
     background-color: aqua;
     color: black;
+}
+
+#sample-id-selector{
+
+    background-color: red;
+    color: blue;
 }
