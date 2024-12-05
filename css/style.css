@@ -1,37 +1,4 @@
-.h1{
-    color: black;
-    background-color: brown;
-}
-.p{
-    background-color: aqua;
-    color: black;
+.navbar bg-body-tertiary{
+    position: sticky;
 }
 
-#sample-id-selector{
-
-    background-color: #10d536;
-    color: blue;
-    border-radius: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-
-    text-align: center;
-  
-}
-
-body{
-    background-image: url(../image/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.box{
-    background-color: blue;
-    height: 100px;
-    width: 100px;
-    padding: 10px;
-    position: relative;
-    top: 100px;
-    left: 200px;
-}

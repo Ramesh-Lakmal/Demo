@@ -5,19 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
+
 <body>
-    <h1 id="sample-id-selector">Hello World</h1>
-    <p id="sample-id-selector">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor tenetur animi itaque nihil cupiditate illum
-        rem nesciunt soluta quam commodi, harum exercitationem omnis assumenda architecto accusantium molestias esse
-        impedit?</p>
-    <!--<fieldset>
-        <legend>About My Self</legend>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nemo praesentium eos quibusdam hic sapiente
-            numquam, at, quasi obcaecati adipisci aperiam, consequuntur officia itaque quos. Eveniet natus doloribus
-            maxime tempore?</p>
-    </fieldset>-->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="image/pexels-joerg-mangelsen-337913024-28919548.jpg" alt="Bootstrap" width="30" height="24">
+            </a>
+        </div>
+    </nav>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/pexels-joerg-mangelsen-337913024-28919548.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image/pexels-joerg-mangelsen-337913024-28919548.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image/pexels-joerg-mangelsen-337913024-28919548.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <button class="">Submit</button>
+<script src="app.js"></script>
 </body>
 
 </html>
